@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="26871" started-at="2017-06-04T22:17:06Z" finished-at="2017-06-04T22:17:32Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="26871" started-at="2017-06-04T22:17:06Z" finished-at="2017-06-04T22:17:32Z">
+      <class name="com.mediamath.mediamathtesting.MediaMathTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.mediamath.mediamathtesting.MediaMathTest@4c203ea1]" name="setup" is-config="true" duration-ms="4191" started-at="2017-06-04T18:17:06Z" finished-at="2017-06-04T18:17:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testDevBlog()[pri:0, instance:com.mediamath.mediamathtesting.MediaMathTest@4c203ea1]" name="testDevBlog" duration-ms="11446" started-at="2017-06-04T18:17:10Z" finished-at="2017-06-04T18:17:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDevBlog -->
+        <test-method status="PASS" signature="testMediaMathNavigation()[pri:0, instance:com.mediamath.mediamathtesting.MediaMathTest@4c203ea1]" name="testMediaMathNavigation" duration-ms="9373" started-at="2017-06-04T18:17:21Z" finished-at="2017-06-04T18:17:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMediaMathNavigation -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.mediamath.mediamathtesting.MediaMathTest@4c203ea1]" name="teardown" is-config="true" duration-ms="1844" started-at="2017-06-04T18:17:31Z" finished-at="2017-06-04T18:17:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.mediamath.mediamathtesting.MediaMathTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
