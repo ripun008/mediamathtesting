@@ -57,6 +57,7 @@ public class MediaMathTest {
 	    driver.switchTo().window(tabHandles.toArray()[newTabIndex].toString());
 		
 	    // verify user is on developer page
+	    developerPage.waitForDeveloperPageToLoad();
 		String developerPageURL = developerPage.getPageURL();
 		Assert.assertTrue("not on developer page", developerPageURL.contains("developer.mediamath"));
 

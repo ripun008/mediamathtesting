@@ -12,7 +12,7 @@ public class DeveloperPage extends BasePage {
 		super(driver);
 	}
 	
-	private static final String developerPageContentsLocator = "#content";
+	private static final String developerPageContentsLocator = "content";
 	private static final String blogLocator = "#local .first>a";
 	
 	public void waitForDeveloperPageToLoad() {
