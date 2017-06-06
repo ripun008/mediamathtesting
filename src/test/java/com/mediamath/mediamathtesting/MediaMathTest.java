@@ -26,7 +26,7 @@ public class MediaMathTest {
 	
 	@BeforeClass
 	public void setup() {
-		System.setProperty("webdriver.chrome.driver", ".\\src\\test\\resources\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "./src/test/resources/chromedriver");
 		DesiredCapabilities capabilities = DesiredCapabilities.chrome();
 		// maximize Chrome window
 		ChromeOptions options = new ChromeOptions();
